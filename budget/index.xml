@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Budgets on WETHOD / Learning Center</title>
-    <link>http://support.wethod.com/budget/</link>
+    <link>http://support.wethod.com/pages-staging/budget/</link>
     <description>Recent content in Budgets on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 May 2017 13:04:19 +0200</lastBuildDate>
     
-	<atom:link href="http://support.wethod.com/budget/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://support.wethod.com/pages-staging/budget/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Budget</title>
-      <link>http://support.wethod.com/budget/index/</link>
+      <link>http://support.wethod.com/pages-staging/budget/index/</link>
       <pubDate>Fri, 26 May 2017 13:04:19 +0200</pubDate>
       
-      <guid>http://support.wethod.com/budget/index/</guid>
+      <guid>http://support.wethod.com/pages-staging/budget/index/</guid>
       <description>Overview The budget is where you can list all the resources you think you&amp;rsquo;ll need for the project.
 Basically, this is the place where you try define (for a project):
  How many people you need;
