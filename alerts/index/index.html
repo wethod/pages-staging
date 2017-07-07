@@ -439,27 +439,64 @@
 
 <p>This alert is shown to the project manager who have created orders not sent yet.</p>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It depends on <strong>the project</strong> and on <strong>the order</strong>.</p>
+</div>
+
 <h3 id="opportunity-due-date">Opportunity Due Date</h3>
 
 <p>This alert is shown to the project manager who have created an opportunity that&rsquo;s expiring in 3 days or that&rsquo;s already expired.</p>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>It depends on <strong>the opportunity</strong>.</p>
+</div>
 
 <h3 id="project-probability-invoice-plan">Project Probability / Invoice Plan</h3>
 
 <p>This alert is shown to the project manager of a project which has:</p>
 
 <ul>
-<li><p>An invoice plan manually set;</p></li>
+<li><p>An <a href="http://support.wethod.com/pages-staging/pipeline/index/#invoice plan">invoice plan</a> manually set;</p></li>
 
 <li><p>A probability lower than 90%.</p></li>
 </ul>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Solution: the project can be considered active and its probability is higher or equal to 90%.</p>
+</div>
 
 <h3 id="budget-submitted">Budget Submitted</h3>
 
 <p>This alert is shown if you have the permission to approve budgets and there&rsquo;s a budget waiting for approval.</p>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><ul>
+<li>Project id, project id_budget, project status</li>
+<li>Budget id, budget status</li>
+<li>Employee id, employee id person, employee type;</li>
+<li>Roles;</li>
+</ul>
+</p>
+</div>
+
 <h3 id="budget-consumption-too-fast">Budget Consumption Too Fast</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a project where the <a href="http://support.wethod.com/pages-staging/reports/index/#budget-consumption">budget consumption</a> is more than 20% greater than the project&rsquo;s <a href="http://support.wethod.com/pages-staging/glossary/index/#absolute-project-progress">progress</a>.</p>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><ul>
+<li>Project probability</li>
+<li>The last project status added</li>
+<li>Sum of the timetracking hours on the project</li>
+<li>Margin</li>
+</ul>
+</p>
+</div>
 
 <h3 id="budget-consumption-too-slow">Budget Consumption Too Slow</h3>
 
@@ -469,19 +506,39 @@
 
 <p>This alert is shown if you&rsquo;re manager of a finished project which isn&rsquo;t already been archived.</p>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>It&rsquo;s a good practice to archive your projects when their project status reach 0.</p>
+</div>
 
 <h3 id="project-probability-budget">Project Probability / Budget</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a project with probability greater than 50% but with budget in draft or missing.<span style="font-size: 1rem;">&nbsp;</span></p>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The aim of this alert is to show to the project manager, given the inconsistent probability, maybe it should be useful to do as much as possible in order to work with an approved budget.</p>
+</div>
+
 <h3 id="planning-or-timesheet-but-probability-90">Planning or Timesheet but Probability &lt; 90%</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a project with probability lower than 90% but which already have a planning and/or timesheets.</p>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Remember</strong>: a project is considered active only if it has a probability greater or equal to 90%.
+For a project that is not active yet, it is a no sense to plan resources or to register a timesheet.</p>
+</div>
+
 <h3 id="planning-project-status">Planning &gt; Project Status</h3>
 
 <p>This alert is shown if you&rsquo;re manager of a project for which are planned (in the future) more days than the last project status days. What&rsquo;s the meaning of requiring more resources than what you really need?</p>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Future Planned Days</strong>: the days that are planned for the project in the future
+<strong>Project Status Days</strong>: the days left to the realization of the project</p>
+</div>
 
 <h3 id="client-po">Client PO</h3>
 
@@ -493,23 +550,30 @@
 <li><p>A Purchase Order is set for the project despite its probability is lower than 100%.</p></li>
 </ul>
 
-<p>A Purchase Order is needed to emit invoices, so it&rsquo;s strange that a 100% probability project hasn&rsquo;t a Purchase Order or vice versa.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>A <strong>Purchase Order</strong> is needed to emit invoices, so it&rsquo;s strange that a 100% probability project hasn&rsquo;t a Purchase Order or vice versa.</p>
+</div>
 
 <h3 id="project-start">Project Start</h3>
 
 <p>This alert is shown to the project manager if one of the following situations happens:</p>
 
 <ul>
-<li><p>A project is started but its probability is lower than 90%;</p></li>
+<li><p><strong>A project is started but its probability is lower than 90%</strong>;</p></li>
 
-<li><p>A project is going to start during the current month but its probability is lower than 75%.</p></li>
+<li><p><strong>A project is going to start during the current month but its probability is lower than 75%</strong>.</p></li>
 </ul>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>A project is considered started if it has a start date in the past or if someone has submitted timesheets for it.</p>
+</div>
 
 <h3 id="project-status">Project Status</h3>
 
-<p>This alert is shown to the manager of a project who forgot to update the project status in the last two weeks.</p>
+<p>If there is a project for which a timesheet is settled but the project status<br />
+This alert is shown to the manager of a project who forgot to update the project status in the last two weeks.</p>
 
 <h3 id="timesheet">Timesheet</h3>
 
