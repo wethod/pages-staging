@@ -423,9 +423,9 @@
 <p>This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):</p>
 
 <ul>
-<li><p><strong>Red alerts</strong> have an high priority and must be solved as soon as possible;</p></li>
-
 <li><p><strong>Yellow alerts</strong> have a low priority and can be seen more as advices.</p></li>
+
+<li><p><strong>Red alerts</strong> have an high priority and must be solved as soon as possible;</p></li>
 </ul>
 
 <div class="admonition note">
@@ -433,7 +433,7 @@
 <p>Hovering on an alert will display a description of the problem.</p>
 </div>
 
-<h2 id="description">Description</h2>
+<h2 id="yellow-alerts">YELLOW Alerts</h2>
 
 <h3 id="unsent-order">Unsent Order</h3>
 
@@ -481,7 +481,7 @@
 
 <li><p>Employee id, employee id person, employee type;</p></li>
 
-<li><p>Roles; </p></li>
+<li><p>Roles;</p></li>
 </ul>
 </p>
 </div>
@@ -566,9 +566,9 @@ For a project that is not active yet, it is a no sense to plan resources or to r
 <p>This alert is shown to the project manager if one of the following situations happens:</p>
 
 <ul>
-<li><p><strong>A project is started but its probability is lower than 90%</strong>;</p></li>
+<li><p><strong>A project is started but its probability is lower than 90%</strong></p></li>
 
-<li><p><strong>A project is going to start during the current month but its probability is lower than 75%</strong>.</p></li>
+<li><p><strong>A project is going to start during the current month but its probability is lower than 75%</strong></p></li>
 </ul>
 
 <div class="admonition note">
@@ -580,37 +580,49 @@ For a project that is not active yet, it is a no sense to plan resources or to r
 
 <p>If there is a project whose <a href="http://support.wethod.com/pages-staging/friday/index/#timesheet">timesheet</a> is settled but the project status not then there is this alert in order to remind the manager of a project who forgot to update the <a href="http://support.wethod.com/pages-staging/friday/index/#project status">project status</a> in the last two weeks.</p>
 
-<h3 id="timesheet">Timesheet</h3>
+<h3 id="timesheet-time-tracking-alert">Timesheet - Time Tracking Alert</h3>
 
 <p>This alert is shown to the employee of a project who forgot to submit the timesheet in the last two weeks.</p>
 
+<p><strong>It is a reminder for the employee that have to do the timesheet as soon as possible</strong></p>
+
+<h2 id="red-alerts">RED Alerts</h2>
+
 <h3 id="project-duration-timesheet">Project Duration / Timesheet</h3>
 
-<p>This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date. Why are your teammates doing timesheets for a non active project?</p>
+<p>This alert is shown to the manager of a project which has some timesheets done before the start date or after the end date.</p>
+
+<p><strong>Why are your teammates doing timesheets for a non active project?</strong></p>
 
 <h3 id="invoice-plan-budget-final-net-price">Invoice Plan / Budget Final Net Price</h3>
 
 <p>This alert is shown to the manager of a project if the following situations happens:</p>
 
 <ul>
-<li><p>The invoice plan is set as manual;</p></li>
+<li><p><strong>The invoice plan is set as manual</strong></p></li>
 
-<li><p>Invoice plan&rsquo;s total amount and final net price mismatch.</p></li>
+<li><p><strong>Invoice plan&rsquo;s total amount and final net price  mismatch</strong></p></li>
 </ul>
 
+<div class="admonition note">
+<p class="admonition-title">Note</p>
 <p>This can happen when you edit budget after setting invoice plan as manual.</p>
+</div>
 
 <h3 id="job-order-project-probability">Job Order / Project Probability</h3>
 
 <p>This alert is shown to the manager of a project if one of the following situations happens:</p>
 
 <ul>
-<li><p>The probability si greater than 90% but the project has&rsquo;t a job order;</p></li>
+<li><p><strong>The probability si greater than 90% but the project has&rsquo;t a job order</strong></p></li>
 
-<li><p>The probability si lower than 90% and the project has a job order.</p></li>
+<li><p><strong>The probability si lower than 90% and the project has a job order</strong></p></li>
 </ul>
 
-<p>Only active project must have a <a href="http://support.wethod.com/pages-staging/glossary/index/#job-order">job order</a>.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Remind that only active projects, which means projects with a probability greater or equal to 90% must have a <a href="http://support.wethod.com/pages-staging/glossary/index/#job-order">job order</a>.</p>
+</div>
 
 <h3 id="planning-project-end">Planning / Project End</h3>
 
