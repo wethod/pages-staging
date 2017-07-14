@@ -546,10 +546,50 @@
 </tr>
 <tr>
 <td>the Program Name</td>
-<td><b>program:</b> program’s name</td>
+<td><b>program:</b> program’s name<br></td>
 </tr>
 </tbody>
 </table>
+
+<p>There are also some <strong>Operators</strong> that can help you searching projects, let’s have a look on them:</p>
+
+<p><span style="font-size: 1rem;">- If you want to search a project from </span><strong>values greater than or equal</strong><span style="font-size: 1rem;"> to x:    </span><strong>“ x+ ”</strong></p>
+
+<ul>
+<li><p>If you want to search a project from <strong>values less than or equal</strong> to x:    <strong>“ x- ”</strong></p></li>
+
+<li><p>If you want to search a project from <strong>values greater or equal</strong> to x <strong>and less or equal</strong> to y:  <strong>“ x…y ”</strong></p></li>
+
+<li><p>If you want to search a project from <strong>values not equal</strong> to x: <strong>“ !x ”</strong></p></li>
+</ul>
+
+<p>You can also apply Operators:</p>
+
+<ul>
+<li><p>Operator1 <strong>OR</strong> Operator2:   <strong>“ , ”</strong></p></li>
+
+<li><p>Operator1 <strong>AND</strong> Operator2:   <strong>“ ; ”</strong></p></li>
+</ul>
+
+<p>For example:</p>
+
+<ul>
+<li>**project: wethod, php ; start: 0116+ ; prob:50…75  **</li>
+</ul>
+
+<p>This search operator will find all the projects with name “wethod&rdquo; or “php”, with a date start grater than January 2016 and a probability between 50% and 75%.</p>
+
+<ul>
+<li><strong>client: luca; value: 25- ; end: 1217+</strong></li>
+</ul>
+
+<p>This search operator will find all the projects of the client Luca, with value less or equal to 25 and with an end date in or after December 2017</p>
+
+<ul>
+<li>**pm: tomas, luca; prob:30…50; status: approved **</li>
+</ul>
+
+<p>This search operator will find all the project whose PM is Tomas or Luca, with a probability between 30 and 50 and a budget status which is approved.</p>
 
 <h3 id="invoice-plan">Invoice Plan</h3>
 
