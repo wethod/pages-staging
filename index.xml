@@ -6,7 +6,7 @@
     <description>Recent content on WETHOD / Learning Center</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Mar 2016 00:11:02 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 08 Mar 2016 23:11:02 +0000</lastBuildDate>
     
 	<atom:link href="http://support.wethod.com/pages-staging/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Getting Started</title>
       <link>http://support.wethod.com/pages-staging/getting-started/index/</link>
-      <pubDate>Wed, 09 Mar 2016 00:11:02 +0100</pubDate>
+      <pubDate>Tue, 08 Mar 2016 23:11:02 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/getting-started/index/</guid>
       <description>Warm Up Visit app.wethod.com/registration to create your team and get a 14 days free trial, we don&amp;rsquo;t force you to insert a credit card and you can take advantage of our tutorial.
@@ -25,7 +25,7 @@ Now you can invite your team members by visiting the Team section.</description>
     <item>
       <title>Dashboard</title>
       <link>http://support.wethod.com/pages-staging/dashboard/index/</link>
-      <pubDate>Thu, 10 Mar 2016 19:56:50 +0100</pubDate>
+      <pubDate>Thu, 10 Mar 2016 18:56:50 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/dashboard/index/</guid>
       <description>Overview The Dashboard is basically a set of widget any one of which can be added, removed and customized by the user.
@@ -36,7 +36,7 @@ Now you can invite your team members by visiting the Team section.</description>
     <item>
       <title>Alerts</title>
       <link>http://support.wethod.com/pages-staging/alerts/index/</link>
-      <pubDate>Tue, 13 Jun 2017 18:08:29 +0200</pubDate>
+      <pubDate>Tue, 13 Jun 2017 16:08:29 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/alerts/index/</guid>
       <description>Overview This widget shows all the inconsistencies regarding the user. Each alert has a priority (indicated by its color):
@@ -49,7 +49,7 @@ YELLOW Alerts Unsent Order This alert is shown to the project manager who have c
     <item>
       <title>Pipeline</title>
       <link>http://support.wethod.com/pages-staging/pipeline/index/</link>
-      <pubDate>Fri, 11 Mar 2016 20:10:46 +0100</pubDate>
+      <pubDate>Fri, 11 Mar 2016 19:10:46 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/pipeline/index/</guid>
       <description>Overview Everything starts from Pipeline, here is where opportunities and projects are listed, both of them are defined by a small amount of significant information:
@@ -66,7 +66,7 @@ YELLOW Alerts Unsent Order This alert is shown to the project manager who have c
     <item>
       <title>Budget</title>
       <link>http://support.wethod.com/pages-staging/budget/index/</link>
-      <pubDate>Fri, 26 May 2017 13:04:19 +0200</pubDate>
+      <pubDate>Fri, 26 May 2017 11:04:19 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/budget/index/</guid>
       <description>Overview The budget is where you can list all the resources you think you&amp;rsquo;ll need for the project.
@@ -83,7 +83,7 @@ YELLOW Alerts Unsent Order This alert is shown to the project manager who have c
     <item>
       <title>Planning</title>
       <link>http://support.wethod.com/pages-staging/planning/index/</link>
-      <pubDate>Sat, 12 Mar 2016 20:08:11 +0100</pubDate>
+      <pubDate>Sat, 12 Mar 2016 19:08:11 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/planning/index/</guid>
       <description>Overview The planning is useful to look at teammates availability, allocate them for projects and check that you respect the budget quota.
@@ -95,7 +95,7 @@ You cannot plan people for the current day: if you don&amp;rsquo;t know what you
     <item>
       <title>Friday</title>
       <link>http://support.wethod.com/pages-staging/friday/index/</link>
-      <pubDate>Mon, 22 May 2017 15:51:35 +0200</pubDate>
+      <pubDate>Mon, 22 May 2017 13:51:35 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/friday/index/</guid>
       <description>Overview WETHOD follows a weekly cycle: we think that a week is a good trade-off between the need to control the project&amp;rsquo;s progress as much as possible and the need to not burden the control activities.
@@ -108,7 +108,7 @@ Every Friday an e-mail will remind:
     <item>
       <title>Reports</title>
       <link>http://support.wethod.com/pages-staging/reports/index/</link>
-      <pubDate>Wed, 24 May 2017 12:01:45 +0200</pubDate>
+      <pubDate>Wed, 24 May 2017 10:01:45 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/reports/index/</guid>
       <description>Overview All the data you insert in WETHOD are used to generate, weekly and automatically, a set of reports useful to monitoring the projects&amp;rsquo; progress.
@@ -120,7 +120,7 @@ Budget Consumption / Project Status This section shows the budget consumption of
     <item>
       <title>Finance</title>
       <link>http://support.wethod.com/pages-staging/finance/index/</link>
-      <pubDate>Wed, 24 May 2017 12:06:54 +0200</pubDate>
+      <pubDate>Wed, 24 May 2017 10:06:54 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/finance/index/</guid>
       <description>Orders In this section you can view all your orders and create new ones. Once you click on the &amp;ldquo;Send&amp;rdquo; button, an e-mail is sent to the address provided in the Email Bot section.
@@ -133,7 +133,7 @@ To create a order:
     <item>
       <title>Settings</title>
       <link>http://support.wethod.com/pages-staging/settings/index/</link>
-      <pubDate>Wed, 24 May 2017 12:09:44 +0200</pubDate>
+      <pubDate>Wed, 24 May 2017 10:09:44 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/settings/index/</guid>
       <description>Tutorial From here you can access a quick and clear tutorial that will teach you all the secrets behind WETHOD, but remember: with great power comes great responsibility.
@@ -145,7 +145,7 @@ Account Here you set your name, surname and password.</description>
     <item>
       <title>FAQ</title>
       <link>http://support.wethod.com/pages-staging/faq/index/</link>
-      <pubDate>Mon, 22 May 2017 17:08:16 +0200</pubDate>
+      <pubDate>Mon, 22 May 2017 15:08:16 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/faq/index/</guid>
       <description>(function(q,u,e,s,t,i,o,n) { o=u.getElementsByTagName(e)[0]; n=u.createElement(s),n.async=1,n.defer=1,n.src=i; o.appendChild(n) })(window,document,&#34;head&#34;,&#34;script&#34;,&#34;res_pars&#34;, &#34;https://goresponsa.com/widgets/57a0713be0e2ee8a8c001270.js&#34;);  </description>
@@ -154,7 +154,7 @@ Account Here you set your name, surname and password.</description>
     <item>
       <title>Glossary</title>
       <link>http://support.wethod.com/pages-staging/glossary/index/</link>
-      <pubDate>Mon, 22 May 2017 17:31:29 +0200</pubDate>
+      <pubDate>Mon, 22 May 2017 15:31:29 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/glossary/index/</guid>
       <description>Absolute Project Progress This value indicates how much a project is advanced since its beginning. For example, a project with:
@@ -167,7 +167,7 @@ Budget Consumption This value indicates, for a project, the percentage of the bu
     <item>
       <title>Discover WETHOD</title>
       <link>http://support.wethod.com/pages-staging/index/</link>
-      <pubDate>Tue, 08 Mar 2016 21:07:13 +0100</pubDate>
+      <pubDate>Tue, 08 Mar 2016 20:07:13 +0000</pubDate>
       
       <guid>http://support.wethod.com/pages-staging/index/</guid>
       <description>What It Is WETHOD is the online tool to manage people and projects in a collaborative way. We aim to make the project management simple, distributing the responsibilities among all the team members and reducing stress derived from projects organization.
